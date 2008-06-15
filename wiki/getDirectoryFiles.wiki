@@ -1,4 +1,4 @@
-= getDirectoryFiles =
+#summary public function getDirectoryFiles
 
 This method returns all the files in `$folder` from the version `$version` of the repository.
  * @param string  `$folder` Folder to get files
