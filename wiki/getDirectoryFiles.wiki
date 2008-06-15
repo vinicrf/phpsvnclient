@@ -33,7 +33,7 @@ print_r($files_now);
 echo "</pre>\n";
 }}}
 
-=== Expected results ===
+==== Expected results ====
 
 {{{
    [0] => Array
