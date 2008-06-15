@@ -1,4 +1,3 @@
-#summary Function reference for getDirectoryFiles
 = getDirectoryFiles =
 
 This method returns all the files in `$folder` from the version `$version` of the repository.
@@ -23,5 +22,5 @@ $url = 'http://phpsvnclient.googlecode.com/svn/';
 require_once("phpsvnclient.php");
 $phpsvnclient = new phpsvnclient($url);
 
-$files_now = $phpsvnclient->svn->getDirectoryFiles('/trunk/');
+$files_now = $phpsvnclient->getDirectoryFiles('/trunk/');
 }}}
