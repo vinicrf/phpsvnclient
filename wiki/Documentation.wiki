@@ -1,4 +1,4 @@
-#summary Documentation for the phpsvnclient
+#summary Documentation for the phpsvnclient project
 
 = Introduction =
 
