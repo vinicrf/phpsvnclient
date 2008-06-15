@@ -1,5 +1,6 @@
 #summary public function getDirectoryFiles($folder='/',$version=-1)
 
+#Revision of last commit	$Rev$ 
 = getDirectoryFiles =
 
 This method returns all the files in `$folder` from the version `$version` of the repository.
