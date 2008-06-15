@@ -1,0 +1,27 @@
+#summary Function reference for getDirectoryFiles
+= getDirectoryFiles =
+
+This method returns all the files in `$folder` from the version `$version` of the repository.
+ * @param string  `$folder` Folder to get files
+ * @param integer `$version` Repository version, -1 means actual
+ * @return array List of files.
+
+
+== Usage ==
+{{{
+getDirectoryFiles($folder, $version);
+}}}
+
+== Examples ==
+
+
+Get Files from `/trunk/` directory from the latest repository version.
+
+{{{
+$url = 'http://phpsvnclient.googlecode.com/svn/';
+
+require_once("phpsvnclient.php");
+$phpsvnclient = new phpsvnclient($url);
+
+$files_now = $phpsvnclient->svn->getDirectoryFiles('/trunk/');
+}}}
