@@ -1,20 +1,36 @@
-#summary Documentation for the phpsvnclient project
+#summary Documentation index for the phpsvnclient project
 
 = Introduction =
 
-*THIS IS A PLACE HOLDER - MORE TO FOLLOW*
+This PHP class can be used to retrieve files from an SVN repository in pure PHP,
+thus without using separate programs or the need to have SVN support within PHP.
 
-Add your content here.
 
+== Details ==
 
-= Details =
+It accesses a given remove SVN repository using the WebDAV protocol and perform 
+several types of operations:
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * List all files in a given SVN repository directory
+  * Retrieve a given revision of a file
+  * Retrieve the log of changes made in a repository or in a given file between 
+two revisions
+  * Get the repository latest revision
 
-= Functions =
-  * getDirectoryFiles
+=== Installation ===
+
+Stable versions will be available as a zip or tarball within the downloads 
+section and from SVN within the branches directory.
+
+Testing versions will be available from SVN within the trunk directory.
+
+=== Documentation ===
+
+Documentation can be viewed online or from SVN within the wiki directory.
+
+==== Getting Started ====
+  * [phpsvnclient]
+
+==== Function Reference ====
   * [getDirectoryFiles]
-  * [[getDirectoryFiles]]
+
