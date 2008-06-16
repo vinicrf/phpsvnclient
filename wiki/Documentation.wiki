@@ -13,24 +13,32 @@ several types of operations:
 
   * List all files in a given SVN repository directory
   * Retrieve a given revision of a file
-  * Retrieve the log of changes made in a repository or in a given file between 
-two revisions
+  * Retrieve the log of changes made in a repository or in a given file between two revisions
   * Get the repository latest revision
 
-=== Installation ===
+== Installation ==
 
 Stable versions will be available as a zip or tarball within the downloads 
 section and from SVN within the branches directory.
 
 Testing versions will be available from SVN within the trunk directory.
 
-=== Documentation ===
+== Documentation ==
 
 Documentation can be viewed online or from SVN within the wiki directory.
 
-==== Getting Started ====
+=== Getting Started ===
   * [phpsvnclient]
 
-==== Function Reference ====
+=== Function Reference ===
   * [getDirectoryFiles]
+  * [getFile]
+  * [getFileLogs]
+  * [getRepositoryLogs]
+  * [getVersion]
+  * [rawDirectoryDump]
+  * [getDirectoryTree] (not implemented yet)
 
+==== Depreciated Functions ====
+  * [setAuth]
+  * [setRepository]
