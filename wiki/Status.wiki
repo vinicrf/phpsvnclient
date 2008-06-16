@@ -1,0 +1,8 @@
+#summary phpsvnclient project status.
+#labels Featured
+
+== 2008-06-16 ==
+
+Project is now active and in development.
+
+--deadpan110
