@@ -7,9 +7,7 @@ This method is for user authentication settings
  for SVN access using a user name and password.
 
  *  @param string $user Username
-
  *  @param string $pass Password
-
 
 *Note:* This function is depreciated, use the method described in [phpsvnclient] instead.
 
