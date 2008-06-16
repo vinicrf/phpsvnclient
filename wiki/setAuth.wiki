@@ -1,5 +1,5 @@
 #summary public function setAuth($user,$pass)
-#labels Deprecated
+#labels Function-Reference,Deprecated
 
 = setAuth =
 
