@@ -21,7 +21,7 @@ setAuth($user,$pass);
 == Example ==
 {{{
 $user = 'myUserName';
-$pass = 'myPassword'
+$pass = 'myPassword';
 
 require_once("phpsvnclient.php");
 $phpsvnclient = new phpsvnclient();
