@@ -1,0 +1,10 @@
+#summary phpsvnclient Frequently Asked Questions
+#labels Featured
+
+= Introduction =
+
+Placeholder for our FAQ section.
+
+== Can I do foo? ==
+
+Answer here.
