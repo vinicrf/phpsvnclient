@@ -36,7 +36,7 @@ echo "</pre>\n";
 ==== Expected results ====
 
 {{{
-   [0] => Array
+    [0] => Array
         (
             [type] => directory
             [last-mod] => Sat, 14 Jun 2008 03:58:49 GMT

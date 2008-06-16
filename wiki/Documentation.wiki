@@ -15,4 +15,6 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 = Functions =
- * [http://code.google.com/p/phpsvnclient/wiki/getDirectoryFiles getDirectoryFiles]
+  * getDirectoryFiles
+  * [getDirectoryFiles]
+  * [[getDirectoryFiles]]
