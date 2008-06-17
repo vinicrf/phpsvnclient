@@ -1,5 +1,5 @@
 #summary phpsvnclient Frequently Asked Questions
-#labels Featured
+#labels Featured,Phase-Deploy
 
 = Introduction =
 
