@@ -3,12 +3,10 @@
 
 = rawDirectoryDump =
 
-This method returns a dump of all the data received from SVN for `$folder` from the version `$version` of the repository.
+This method returns a dump of all the XML data received from SVN for `$folder` from the version `$version` of the repository as an array.
  * @param string  $folder Folder to get data
  * @param integer $version Repository version, -1 means actual
  * @return array SVN data dump.
-
-*Note:* The first result returned in the array is intentionally the directory you are accessing.
 
 == Usage ==
 {{{
