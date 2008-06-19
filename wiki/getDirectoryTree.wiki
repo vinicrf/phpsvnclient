@@ -6,7 +6,6 @@
 This method returns the complete tree of files and directories in `$folder` from the version `$version` of the repository.
  *  @param string `$folder` Folder to get tree
  *  @param integer `$version` Repository version, -1 means actual
-
  *  @return array List of files and directories.
 
 *Note:* The first result returned in the array is intentionally the directory you are accessing.
