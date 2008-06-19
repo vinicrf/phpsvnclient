@@ -1,0 +1,31 @@
+#summary public function getDirectoryTree($folder='/',$version=-1)
+#labels Function-Reference
+
+= getDirectoryTree =
+
+This method returns the complete tree of files and directories in `$folder` from the version `$version` of the repository.
+ *  @param string `$folder` Folder to get tree
+ *  @param integer `$version` Repository version, -1 means actual
+
+ *  @return array List of files and directories.
+
+*Note:* The first result returned in the array is intentionally the directory you are accessing.
+
+== Usage ==
+{{{
+getDirectoryTree($folder, $version);
+}}}
+
+== Example ==
+{{{
+$url = 'http://phpsvnclient.googlecode.com/svn/';
+
+require_once("phpsvnclient.php");
+$phpsvnclient = new phpsvnclient($url);
+
+$directory_tree = $phpsvnclient->getDirectoryTrunk('/trunk/');
+
+echo "<pre>\n";
+print_r($directory_tree);
+echo "</pre>\n";
+}}}
