@@ -22,7 +22,7 @@ $url = 'http://phpsvnclient.googlecode.com/svn/';
 require_once("phpsvnclient.php");
 $phpsvnclient = new phpsvnclient($url);
 
-$directory_tree = $phpsvnclient->getDirectoryTrunk('/trunk/');
+$directory_tree = $phpsvnclient->getDirectoryTree('/trunk/');
 
 echo "<pre>\n";
 print_r($directory_tree);
