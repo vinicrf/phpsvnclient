@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Placeholder for our FAQ section.
+This is a list of things that people no longer need to worry about.
 
 == What is WebDAV? ==
 
