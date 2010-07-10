@@ -3,7 +3,7 @@
 
 = Introduction =
 
-This is a list of things that people no longer need to worry about.
+This is a list of things that people no longer need to wonder about.
 
 == What is WebDAV? ==
 
