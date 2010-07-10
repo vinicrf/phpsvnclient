@@ -1,0 +1,28 @@
+#summary public function checkOut($folder = '/', $outPath = '.')
+#labels Function-Reference,Language-EN
+
+= checkOut =
+
+This method uses [getDirectoryTree] to retrieve the specified $folder from the latest version, and save its hierarchy to $outPath.  The $folder prefix is not carried over to the local filesystem; its contents will appear directly in $outPath.
+
+    * @param string $folder Folder to checkout.
+    * @param integer $outPath Local path where the contents of $folder will go.
+    * @return void This function doesn't return anything.
+
+= Usage =
+
+{{{
+checkOut($svnDir, $localDir);
+}}}
+
+= Example =
+Copy the contents of the `trunk` directory to `/tmp` (Linux directory where files eventually get cleaned out).
+
+{{{
+$url = 'http://phpsvnclient.googlecode.com/svn/';
+
+require_once("phpsvnclient.php");
+$phpsvnclient = new phpsvnclient($url);
+
+$phpsvnclient->checkOut('trunk', '/tmp');
+}}}
