@@ -1,5 +1,5 @@
 #summary public function getFile($file,$version=-1)
-#labels Language-RU
+#labels Language-RU,Function-Reference
 
 = getFile =
 
