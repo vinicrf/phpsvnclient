@@ -1,5 +1,5 @@
 #summary public function checkOut($folder = '/', $outPath = '.')
-#labels Language-RU
+#labels Language-RU,Function-Reference
 
 = checkOut =
 
