@@ -1,4 +1,5 @@
 #summary phpsvnclient Часто задаваемые вопросы Frequently Asked Questions
+#labels Language-RU
 
 = Введение =
 
