@@ -1,4 +1,5 @@
 #summary public function checkOut($folder = '/', $outPath = '.')
+#labels Language-RU
 
 = checkOut =
 
