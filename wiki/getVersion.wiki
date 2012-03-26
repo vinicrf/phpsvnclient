@@ -1,4 +1,5 @@
 #summary public function getVersion()
+#labels Function-Reference,Language-EN
 
 = getVersion =
 
