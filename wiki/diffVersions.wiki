@@ -1,4 +1,5 @@
 #summary public function diffVersions($path = '', $revFrom = 0, $revTo = 0)
+#labels Function-Reference,Language-EN
 
 = diffVersions =
 
