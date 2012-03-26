@@ -1,4 +1,5 @@
 #summary public function createOrUpdateWorkingCopy($folder = '/', $outPath = '.', $checkFiles = false)
+#labels Function-Reference,Language-EN
 
 = createOrUpdateWorkingCopy =
 
