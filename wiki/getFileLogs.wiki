@@ -1,4 +1,5 @@
 #summary public function getFileLogs($path = "/", $vini = 0, $vend = -1)
+#labels Function-Reference,Language-EN
 
 = getRepositoryLogs =
 
